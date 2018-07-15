@@ -22,6 +22,6 @@ function iLoveTheBeatles(number) {
   do {
     empty = [...empty, "I love the Beatles!"];
     number = --number
-    } while (number > 0 && number < 15);
+    } while (number > -1 && number < 15);
     return empty;
 }
